@@ -12,6 +12,6 @@ func main() { //Faça um algoritmo que leia um número inteiro e mostre se ele �
 	} else if num%5 == 0 {
 		fmt.Println("É múltiplo de 5")
 	} else {
-		fmt.Println("Não é múltiplo de 3 nem de 5")
+		fmt.Println("Não é múltiplo de 3 nem de 5.")
 	}
 }
