@@ -13,11 +13,8 @@ func main() { //Faça um algoritmo que leia três números reais e mostre a méd
 	fmt.Println("Digite o terceiro número:")
 	fmt.Scan(&num3)
 
-	peso2 := (num1*2 + num2*2 + num3*2) / 10
-	peso3 := (num1*3 + num2*3 + num3*3) / 10
-	peso5 := (num1*5 + num2*5 + num3*5) / 10
-	fmt.Println("A média com peso 2 é:", peso2)
-	fmt.Println("A média com peso 3 é:", peso3)
-	fmt.Println("A média com peso 5 é:", peso5)
+	mp := (num1*2 + num2*3 + num3*5) / 10
+	
+	fmt.Println("A média com peso 2 é:", mp)
 
 }
