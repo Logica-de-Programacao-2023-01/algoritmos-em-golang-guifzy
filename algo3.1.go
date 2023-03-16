@@ -8,9 +8,9 @@ func main() { //Faça um algoritmo que leia um número inteiro e mostre se ele �
 	fmt.Scan(&num)
 
 	if num%2 == 0 {
-		fmt.Println("O número é par")
+		fmt.Println("O número é par.")
 
 	} else {
-		fmt.Println("O número é impar")
+		fmt.Println("O número é impar.")
 	}
 }
