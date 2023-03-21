@@ -8,6 +8,6 @@ func main() { //Faça um algoritmo que leia o preço de um produto e mostre o se
 	fmt.Scan(&preco)
 
 	desconto := preco * 10 / 100
-	fmt.Print("O desconto do produtoo é de: R$", desconto)
+	fmt.Print("O preço do produto com desconto é de: R$", preco - desconto)
 
 }
