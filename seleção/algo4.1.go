@@ -16,7 +16,7 @@ func main() { //Faça um algoritmo que leia a altura e o sexo de uma pessoa e mo
 	imc := massa / (altura * altura)
 	if imc < 18 {
 		fmt.Println("A baixo do peso")
-	} else if sexo == "M" && sexo == "M" && imc >= 18 && imc <= 25 {
+	} else if sexo == "M" && sexo == "F" && imc >= 18 && imc <= 25 {
 		fmt.Println("Peso ideal")
 	} else if sexo == "M" && imc >= 26 && imc <= 30 {
 		fmt.Println("Sobrepeso")
