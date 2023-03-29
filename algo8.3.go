@@ -9,7 +9,7 @@ func main() { //Faça um algoritmo que leia um número inteiro positivo e mostre
 
 	for div := 1; div <= num; div++ {
 		if num%div == 0 {
-			fmt.Println("Os divisores de", num, "são:", num/div)
+			fmt.Println("Os divisores de", num, "são:", div)
 		}
 
 	}
